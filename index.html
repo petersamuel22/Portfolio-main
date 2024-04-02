@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Croissant+One&family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <script defer src="js.js"></script>
+    <title>Peter Samuel</title>
+
+
+</head>
+
+<body>
+    <a href="#invisible" id="backToTop" class="back-to-top">
+        <i class="fa-solid fa-angle-up fa-2xl"></i></a>
+    <section class="invisible" id="invisible">invisible</section>
+    <header id="header">
+        <nav>
+            <div class="burger-menu">
+                <input type="checkbox" class="checkbox-menu" id="check" />
+                <label for="check" class="checkbtn">
+                    <i class="fa-solid fa-bars fa-2xl"></i>
+                </label>
+                <label for="check" class="closebtn" style="display: none;">
+                    <i class="fa-solid fa-times fa-2xl"></i>
+                </label>
+            </div>
+            <ul>
+                <li><a href="#secs2" id="section2">About</a></li>
+                <li><a href="#secs3" id="section3">Portfolio</a></li>
+                <li><a href="#secs4" id="section4">Contact</a></li>
+                <label class="mobile-text" for="mobile-toggle">
+                    <svg width="15%" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 496">
+                        <path fill="currentColor"
+                            d="M8,256C8,393,119,504,256,504S504,393,504,256,393,8,256,8,8,119,8,256ZM256,440V72a184,184,0,0,1,0,368Z"
+                            transform="translate(-8 -8)" />
+                    </svg>
+                </label>
+                <input type="checkbox" class="mobile-toggle" id="mobile-toggle">
+            </ul>
+        </nav>
+        <button class="desktop-toggle" id="desktop-toggle" onclick="toggleDesktopTheme()"> <svg width="100%"
+                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 496">
+                <path fill="currentColor"
+                    d="M8,256C8,393,119,504,256,504S504,393,504,256,393,8,256,8,8,119,8,256ZM256,440V72a184,184,0,0,1,0,368Z"
+                    transform="translate(-6 -8)" />
+            </svg></button>
+    </header>
+    <section class="home">
+        <div class="left">
+            <h1>Hello there.</h1>
+            <h2>I'm <span class="en-span">Peter</span>.</h2>
+            <h3 class="padding-block-10">I build web stuff.</h3>
+        </div>
+    </section>
+    <section class="about">
+        <div class="container">
+            <div id="secs2">
+            <img src="images/avatar.png" alt="">
+        </div>
+        <div>
+            <h2>Who am I?</h2>
+            <h3>I'm a Web Developer based in Egypt.</h3>
+            <h4 class="padding-block-10">I've got real passion for the craft and I always aspire to do better.</h4>
+            <div class="facts padding-block-20">
+                <ul>
+                    <li>
+                        <p>I like playing around with computers and have always found technology captivating.</p>
+                    </li>
+                    <li>
+                        <p>I'm an indoorsy so when I'm not coding you'll find me vibing to rap music or watching
+                            Seinfeld.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        </div>
+        <h3>
+            Languages I speak : <span>HTML, CSS and JS</span>
+        </h3>
+    </section>
+    <section class="portfolio">
+        <div class="containers" id="secs3">
+            <div>
+                <a href="https://petersamuel2001.github.io/Space-Tourism/"><img src="images/portfolio/space-tourism.png"
+                        alt="Project5"></a>
+            </div>
+            <div>
+                <a href="https://petersamuel2001.github.io/Manage-Landing-Page/"><img src="images/portfolio/manage.png"
+                        alt="Project1"></a>
+            </div>
+            <div>
+                <a href="https://petersamuel2001.github.io/my-first-css-project/"><img
+                        src="images/portfolio/first-css-project.png" alt="Project2"></a>
+            </div>
+        </div>
+        <div class="containers">
+            <div>
+                <a href="https://petersamuel2001.github.io/QR-code-project/"><img src="images/portfolio/qr-code.png"
+                        alt="Project3"></a>
+            </div>
+            <div>
+                <a href="https://petersamuel2001.github.io/results-summary-component-main/"><img
+                        src="images/portfolio/results-summary.png" alt="Project4"></a>
+            </div>
+    </section>
+    <section class="contact padding-block-50">
+
+        <h3 id="secs4">Contact me</h2>
+            <div class="containers padding-block-50">
+                <a href="https://www.linkedin.com/in/peter-samuel-594610190/">My Linked<i
+                        class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.upwork.com/freelancers/~01bc19a22c97bd0016?viewMode=1"><img
+                        class="padding-block-50" src="images/upwork.svg" alt=""></a>
+            </div>
+            </div>
+
+    </section>
+    <footer class="footer">
+        <div>
+            <a href="index.html"><img src="images/avatar.png" alt=""></a>
+        </div>
+        <div class="copyright">
+            <h4>Copyright</h4>
+            <p>All rights reserved © <span class="en-span">Peter Samuel</span> 2023</p>
+        </div>
+        <div class="language">
+            <a href="AR.html">Arabic</a>
+        </div>
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://kit.fontawesome.com/0f471979b7.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
